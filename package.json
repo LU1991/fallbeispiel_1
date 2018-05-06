@@ -1,0 +1,21 @@
+{
+  "name": "fallbeispiel_1",
+  "version": "1.0.0",
+  "description": "Fallbeispiel 1 für EPS",
+  "main": "index.html",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LU1991/fallbeispiel_1.git"
+  },
+  "author": "Laura Unger",
+  "bugs": {
+    "url": "https://github.com/LU1991/fallbeispiel_1/issues"
+  },
+  "homepage": "https://github.com/LU1991/fallbeispiel_1#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  }
+}
