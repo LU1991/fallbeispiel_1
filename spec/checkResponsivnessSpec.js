@@ -40,6 +40,30 @@ describe('Check Responsiveness', function() {
             .then(done);
     });
 
+    it('can be navigated to "Preise" from mobile device', function(done) { 
+        that.driver.findElement(selenium.By.id('toggler'))
+            .then(function(element) {
+                return element.click();
+            })
+            .then(function() {
+                return that.driver.findElement(selenium.By.id('preise'))
+            })
+            .then(function(element) {
+                return element.click();
+            })
+            .then(function() {
+                return that.driver.getCurrentUrl();
+            })
+            .then(function(url) {
+                expect(url).toContain('/preise');
+            })
+            .catch(function(err){
+                console.log(err);
+                fail(err);
+            })
+            .then(done);
+    });
+
     it('has mobile navigation when window size is < 500', function(done) { 
         that.driver.findElement(selenium.By.id('toggler'))
             .then(function(element) {
