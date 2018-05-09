@@ -4,6 +4,7 @@
   "description": "Fallbeispiel 1 für EPS",
   "main": "index.html",
   "scripts": {
+    "cypress:open": "cypress open",
     "test": ""
   },
   "repository": {
@@ -24,5 +25,8 @@
     "mocha": "^5.1.1",
     "npm": "^6.0.0",
     "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "cypress": "^2.1.0"
   }
 }
