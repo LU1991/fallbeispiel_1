@@ -1,93 +1,106 @@
 <!doctype html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-    <title>Kosmetikstudio Soul & Perle</title>
+        <title>Kosmetikstudio Soul & Perle</title>
 
-    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="jumbotron.css" rel="stylesheet">
-  </head>
+        <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="jumbotron.css" rel="stylesheet">
+    </head>
 
-  <body>
+    <body id="home">
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="index.html">Kosmetik-Studio </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="index.html">Kosmetik-Studio </a>
+            <button id="toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="preise.html">Preise</a>
-          </li>
-           <li class="nav-item">
-            <a class="nav-link" href="#">Mitarbeiter</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Kontakt</a>
-          </li>
-          <!--<li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Unternehmen</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Gesch</a>
-              <a class="dropdown-item" href="#">Mitarbeiter</a>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a id="preise" class="nav-link" href="preise.html">Preise</a>
+                    </li>
+                    <li id="mitarbeiter" class="nav-item">
+                        <a class="nav-link" href="#">Mitarbeiter</a>
+                    </li>
+                    <li id="kontakt" class="nav-item">
+                        <a class="nav-link" href="#">Kontakt</a>
+                    </li>
+                    <!--<li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Unternehmen</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item" href="#">Gesch</a>
+                            <a class="dropdown-item" href="#">Mitarbeiter</a>
+                        </div>
+                    </li>-->
+                </ul>
             </div>
-          </li>-->
-        </ul>
-      </div>
-    </nav>
+        </nav>
 
-    <main role="main">
+        <main role="main">
+            <!-- Main jumbotron for a primary marketing message or call to action -->
+            <div class="jumbotron">
+                <div class="container">
+                    <h1 class="display-4">Herzlich Willkommen!</h1>
+                    <p>
+                        Ich freue mich, dass du unser Kosmetik-Studio in Bruchköbel gefunden hast. Erfahre mehr über unser kleines Unternehmen, unsere Leistungen oder nehme ganz einfach mit uns Kontakt auf.
+                        <br>
+                        Dein Team vom Kosmetik-Studio Soul & Perle
+                    </p>
 
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <div class="container">
-          <h1 class="display-3">Herzlich Willkommen!</h1>
-          <p>Ich freue mich, dass du unser Kosmetik-Studio in Bruchköbel gefunden hast. Erfahre mehr über unser kleines Unternehmen, unsere Leistungen oder nehme ganz einfach mit uns Kontakt auf.
-            <br>
-          Dein Team vom Kosmetik-Studio Soul & Perle</p>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpzmmNFnk6FbvRzkmK29U_xgUNZokAao0b2Qly_MNPKV4C6bTcng">
+                </div>
+            </div>
 
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpzmmNFnk6FbvRzkmK29U_xgUNZokAao0b2Qly_MNPKV4C6bTcng">
-        </div>
-      </div>
+            <div class="container">
+            <!-- Example row of columns -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2>Kosmetik</h2>
+                        <p>
+                            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. 
+                        </p>
+                        <p>
+                            <a class="btn btn-secondary" href="#" role="button">View details &raquo;</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>Entspannung</h2>
+                        <p>
+                            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+                        </p>
+                        <p>
+                            <a class="btn btn-secondary" href="#" role="button">View details &raquo;</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>Produkte</h2>
+                        <p>
+                            Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+                        </p>
+                        <p>
+                            <a class="btn btn-secondary" href="#" role="button">View details &raquo;</a>
+                        </p>
+                    </div>
+                </div>
 
-      <div class="container">
-        <!-- Example row of columns -->
-        <div class="row">
-          <div class="col-md-4">
-            <h2>Kosmetik</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>Entspannung</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>Produkte</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-        </div>
+                <hr>
 
-        <hr>
+            </div> <!-- /container -->
 
-      </div> <!-- /container -->
+        </main>
 
-    </main>
+        <footer class="container">
+            <p>&copy; Company 2017-2018</p>
+        </footer>
 
-    <footer class="container">
-      <p>&copy; Company 2017-2018</p>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script>//window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  </body> 
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script>//window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body> 
 </html>
