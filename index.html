@@ -10,10 +10,14 @@
 
         <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="jumbotron.css" rel="stylesheet">
+        <style>
+            .nav-link{
+                color:#ff0000 !important;
+            }
+        </style>
     </head>
 
-    <body id="home">
-
+    <body>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <a class="navbar-brand" href="index.html">Kosmetik-Studio </a>
             <button id="toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,7 +27,7 @@
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a id="preise" class="nav-link" href="preise.html">Preise</a>
+                        <a class="nav-link" href="preise.html" id="preise">Preise</a>
                     </li>
                     <li id="mitarbeiter" class="nav-item">
                         <a class="nav-link" href="#">Mitarbeiter</a>
